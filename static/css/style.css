@@ -1,0 +1,26 @@
+.body{ background-color: #F3E2AF;
+        font-size: 15px
+}
+.h1{ font-style: bold;
+      font-size: 18;
+      align: center;
+      color: #353133
+}
+.a1{padding: 8px;
+   border: 1px  solid #353133;
+   font-size: 14;
+   color:#353133;
+   background-color:#CC0F1B;
+   text-decoration:none;
+
+}
+.a2{padding: 9px;
+   height: 10;
+   border-bottom: 3px solid white;
+   border-right: 3px solid white;
+   color: white;
+   font-size:15
+   font-weigth: bold;
+   background-color:#561521;
+
+}

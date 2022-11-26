@@ -1,0 +1,10 @@
+{% extends "main_template.html" %}
+{% block body %}
+<h1 class="h1">Меню страницы № 2</h1>
+    <p width="100%">Вы перешли на вторую страницу.<img src="./static/image/fl2.png" width="200"></p>
+<table width="300">
+    <tr><td height="32"><a  href="/" class="a1" onmouseover="this.className='a2';" onmouseout="this.className='a1';">НА ГЛАВНУЮ</a></td></tr>
+  <tr><td height="32"><a href="/page1" class="a1" onmouseover="this.className='a2';" onmouseout="this.className='a1';"> НА ПЕРВУЮ</a></td></tr>
+   <tr><td height="32"><a href="https://dzen.ru/?clid=2175661&yredirect=true" class="a1" onmouseover="this.className='a2';" onmouseout="this.className='a1';">Ссылка на Дзен</a> </td>
+</tr></table>
+    {% endblock %}

@@ -1,0 +1,17 @@
+
+{% extends "main_template.html" %}
+{% block body %}
+<h1 class="h1">Меню главной страницы </h1>
+<table>
+    <tr>
+        <td><img src="./static/image/fl1.png" width="30"></td>
+        <td height="30"><a href="/page1" class="a1" onmouseover="this.className='a2';" onmouseout="this.className='a1';">НА ПЕРВУЮ СТРАНИЦУ</a></td>
+    </tr>
+     <tr>
+     <td height="30"><img src="./static/image/fl2.png" width="30"></td>
+        <td height="30"><a width='100' href="/page2" class="a1" onmouseover="this.className='a2';" onmouseout="this.className='a1';">НА ВТОРУЮ СТРАНИЦУ</a>
+     </td></tr>
+        <tr>
+        <td><img src="./static/image/fl1.png" width="30"></td><td height="30"><a href="https://dzen.ru/?clid=2175661&yredirect=true" class="a1" onmouseover="this.className='a2';" onmouseout="this.className='a1';">Ссылка на Дзен</a></td></tr>
+</table>
+{% endblock %}
